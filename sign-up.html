@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <link href="login style.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="sign-up">
+    <h3>sign-up</h3>
+        <form onsubmit="return validateForm()">
+            <input type="text" id="name" placeholder="Enter full name"><br><br>
+            <input type="text" id="Email" placeholder="Email"><br><br>
+            <input type="text" id="pass" placeholder="password"><br><br>
+            <input type="text" id="confirm" placeholder="confirm password"><br><br>
+            <button type="submit" id="sign-up but">sign-up</button>
+        </form>
+        <p>Already have an account!
+            <a href="login.html">login</a>
+        </p>
+        </div>
+        <!--<script>
+            function validateForm(){
+                let a = document.getElementById("pass").value;
+                let b = document.getElementById("conform").value;
+                if(b!=a){
+                    alter("password does not match");
+                    return false;
+                }
+                else{
+                    alter("Account created sucessfully");
+                    return true;
+                }
+            }
+        </script>-->
+        <script src="auth.js"></script>
+</body>
+</html>

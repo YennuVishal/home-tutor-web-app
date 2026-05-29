@@ -1,0 +1,45 @@
+body{
+    background: linear-gradient(#6367FF,#8494FF, #FFDBFD);
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 100vh; 
+}
+.box{
+    width:300px;
+    padding:25px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3); /* floating effect */
+    text-align:center;
+    
+}
+
+h1{
+    font-family: Arial;
+    color: black;
+    text-align: center;
+}
+.inner{
+    border-radius:100px;
+}
+h3{
+    text-align: center;
+}
+.sign-up{
+    width: 300px;
+    padding: 25px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.3);
+    text-align:center;
+}
+
+.role{
+    width:300px;
+    padding: 70px;
+    background:white;
+    border-radius:10px;
+    box-shadow:0 5px 20px rgba(0,0,0,0.3); /* floating effect */
+    text-align:center;
+}

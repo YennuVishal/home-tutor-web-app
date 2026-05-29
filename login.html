@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Tutor</title>
+    <link href="login style.css" rel="stylesheet"> 
+    <a href="role.html"></a>
+</head>
+<body>
+    <div class="box">
+    <h1>Home Tutor Login</h1>
+    <form>
+        <!--<label>Enter Username</label><br>-->
+        <div class="inner">
+            <input type="text" id="name" placeholder="Username:"><br><br>
+            <!--<label>Password:</label><br>-->
+            <input type="password" id="Pass" placeholder="password" ><br><br>
+            
+            <!--<input type="password" id="pass">-->
+        </div>
+        <input type="checkbox" onclick="showpassword()" id="sp"> show password <br><br>
+
+        <button type="button" id="login-btn">Login</button>
+        <p>Don't have aaccount ?
+            <a href="sign-up.html">Create account</a>
+        </p>
+        <!--<button onclick="alert('welcome')">click</button>-->
+    </form>
+    </div>
+    <!--<script>
+        function showpassword(){
+            var x = document.getElementById("pass");
+            if(x.type === "password"){ 
+                x.type="text";
+            }
+            else{
+                x.type="password";
+            }
+        }
+    </script>-->
+    <script src="auth.js"></script>
+</body>
+</html>
